@@ -1,0 +1,65 @@
+h1 {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+
+.dropdown {
+  float: right
+  
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.jumbotron {
+  background-image: url("https://c1.staticflickr.com/1/388/19913404698_34c4f47610_b.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  background-color: black;
+}
+
+.btn-group {
+  display:flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.col-sm-6 {
+  height:210px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.col-sm-4 {
+  height:210px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  height: 5%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 200px;
+  padding: 10px;
+}
+
+body {
+  background-color: grey;
+  background-image: url("https://amvnow.files.wordpress.com/2012/01/board-black-series-texture-background-wood-wallpaper-wood-texture-wallpapers-476.jpg?w=1800");
+  background-repeat: repeat;
+  background-position:
+}

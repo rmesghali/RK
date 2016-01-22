@@ -1,0 +1,71 @@
+* Link to css file
+
+<link rel="stylesheet" type"text/css" href="cssintro.css"></link>
+
+* Tag Selector
+
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h2, h3 {
+  color: orange;
+  font-family: sans-serif;
+}
+
+* Tag Inside Tag Selector
+
+section > h2 {
+  color: gray;
+}
+
+* Pseudo-selectors
+
+a:hover {
+  color: green;
+  font-size: 20pt;
+}
+
+a:visited {
+  color: gray;
+}
+
+p::first-letter {
+  font-size: 20pt;
+}
+
+* Id
+
+<div id="div_one">
+  Cum pertinax qualisque mnesarchum et.
+  Id sea sint bonorum.
+</div>
+<div id="div_two">
+  Cum pertinax qualisque mnesarchum et.
+  Id sea sint bonorum.
+</div>
+
+#div_one {
+  color: yellow;
+}
+
+#div_two {
+  color: green;
+}
+
+
+* Class
+
+<div class="my_class">
+  Cum pertinax qualisque mnesarchum et.
+  Id sea sint bonorum.
+</div>
+<div class="my_class">
+  Cum pertinax qualisque mnesarchum et.
+  Id sea sint bonorum.
+</div>
+
+***
+http://www.w3schools.com/cssref/css_selectors.asp
